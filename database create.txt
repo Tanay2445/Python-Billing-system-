@@ -1,0 +1,11 @@
+#Database create
+#to create database and table for storing the data of customer in MySQL
+create database sales;
+
+#table create
+create table data(
+    name varchar(50),
+    date varchar(50),
+    product varchar(1000),
+    amount varchar(50)
+    );
